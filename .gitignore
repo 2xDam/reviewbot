@@ -1,22 +1,16 @@
-# Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 
-# Virtual environment
 .venv/
 venv/
 env/
 
-# VS Code
-.vscode/
-
-# macOS
+.env
+*.log
 .DS_Store
 
-# Logs
-*.log
+.pytest_cache/
+.coverage
+htmlcov/
 
-# Secrets / env
-.env
+.vscode/
